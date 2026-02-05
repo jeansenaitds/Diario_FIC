@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diário FIC</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link rel="icon" type="image/svg+xml" href="imagens/book-icon.svg">
+
+    <style>
+        .col-imagens {
+            background-color: #6f42c1;
+        }
+
+        .img-senai {
+            background-image: url("imagens/senai-logo.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 80%;
+            height: 120px;
+        }
+
+        .img-fundo {
+            background-image: url("imagens/process-verify.svg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 80%;
+            height: 250px;
+        }
+
+        .form-control {
+            background-color: #f1f3f4;
+        }
+
+        .btn-purple {
+            background-color: #6f42c1;
+            color: #fff;
+        }
+
+        .titulo-imagens {
+            color: #fff;
+            font-size: 2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="container-fluid">
+        <div class="row min-vh-100">
+            <div class="d-none d-lg-flex col-lg-4 col-imagens flex-column align-items-center justify-content-start p-4">
+                <div class="img-senai mb-5 align-self-center"></div>
+                <div class="titulo-imagens">Diário FIC</div>
+                <div class="img-fundo mt-4 align-self-center"></div>
+            </div>
+
+            <div class="col-12 col-lg-8 d-flex align-items-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-10 bg-white p-5 rounded-5">
+
+                            <h1 class="display-5 fw-bold">Entrar</h1>
+
+                            <hr>
+
+                            <p class="lead fw-bold">NIF</p>
+
+                            <input class="form-control mb-4" type="text">
+
+                            <p class="lead fw-bold">SENHA</p>
+
+                            <input class="form-control mb-4" type="password">
+
+                            <div class="d-flex justify-content-between align-items-center mb-4">
+                                <a class="text-primary text-decoration-none" href="#">Esqueci minha senha</a>
+                                <a class="btn btn-purple btn-lg px-4" href="#">Entrar</a>
+                            </div>
+
+                            <hr>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+</body>
+
+</html>
